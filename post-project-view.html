@@ -1,0 +1,37 @@
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; background-color: #ffffff; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); font-family: 'Roboto', sans-serif;">
+
+    <form id="post-project-form">
+        <!-- Project Name -->
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="project-name" style="font-size: 16px; font-weight: 600; color: #333;">Nombre del Proyecto</label>
+            <input type="text" id="project-name" placeholder="Ejemplo: Sitio Web Corporativo"
+                   style="width: 100%; padding: 12px; border: 1px solid #e0e0e0; border-radius: 10px; font-size: 16px; background-color: #f9f9f9; color: #333; outline: none; transition: border-color 0.3s ease;">
+        </div>
+
+        <!-- Company -->
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="company" style="font-size: 16px; font-weight: 600; color: #333;">Empresa</label>
+            <input type="text" id="company" placeholder="Ejemplo: Mi Empresa S.A."
+                   style="width: 100%; padding: 12px; border: 1px solid #e0e0e0; border-radius: 10px; font-size: 16px; background-color: #f9f9f9; color: #333; outline: none; transition: border-color 0.3s ease;">
+        </div>
+
+        <!-- Project Description -->
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="project-description" style="font-size: 16px; font-weight: 600; color: #333;">Descripción del Proyecto</label>
+            <textarea id="project-description" placeholder="Describe el proyecto..." rows="5"
+                      style="width: 100%; padding: 12px; border: 1px solid #e0e0e0; border-radius: 10px; font-size: 16px; background-color: #f9f9f9; color: #333; outline: none; transition: border-color 0.3s ease;"></textarea>
+        </div>
+
+        <!-- Include Location -->
+        <div class="checkbox" style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+            <input id="include-location" type="checkbox" style="width: 20px; height: 20px; accent-color: #6200ea;">
+            <label for="include-location" style="font-size: 14px; color: #333; cursor: pointer;">¿Incluir Ubicación?</label>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submit-project" type="submit" 
+                style="display: block; width: 100%; padding: 14px; font-size: 16px; font-weight: 600; text-align: center; border: none; border-radius: 10px; background-color: #6200ea; color: #ffffff; cursor: pointer; transition: background-color 0.3s ease;">
+            Guardar Proyecto
+        </button>
+    </form>
+</div>
